@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '没吃饭么这么点分？？？一九幼年';
-    if (score <= 99) return '还可以，一九少年水平';
-    if (score <= 120) return '强，一九青年';
-    if (score <= 150) return '你来当年级主任吧'
+    if (score <= 49) return '没吃饭么这么点分？？？';
+    if (score <= 99) return '还可以只能说';
+    if (score <= 120) return '很强了';
+    if (score <= 150) return '来地球的目的是什么'
 }
 
 function toStr(obj) {
